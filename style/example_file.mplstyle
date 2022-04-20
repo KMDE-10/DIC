@@ -1,0 +1,59 @@
+#figure
+figure.figsize : 4,3        #inches
+figure.dpi: 500
+figure.subplot.left:   0.1  #percent
+figure.subplot.right:  0.99 #percent  
+figure.subplot.bottom: 0.1  #percent
+figure.subplot.top:    0.99 #percent
+
+#text
+font.family: sans-serif
+font.sans-serif : Arial
+text.color : black
+font.size:9
+axes.titlesize : 9
+axes.labelsize : 9
+xtick.labelsize : 9
+ytick.labelsize : 9
+
+
+
+#axes
+axes.prop_cycle: cycler('color', ['004970','890056','74A500','B06000'])+cycler('linestyle',['-', '-.', ':', '--'])
+axes.labelcolor :black
+axes.facecolor: white
+axes.linewidth: 0.5
+axes.formatter.use_locale :True
+axes.formatter.limits: -3,3
+
+
+#xticks
+
+xtick.color : black
+
+xtick.direction:in
+xtick.major.size:6
+xtick.minor.size:3
+xtick.top : False
+xtick.bottom: True
+xtick.minor.visible: False
+xtick.major.pad: 3
+
+#yticks
+ytick.left: True
+ytick.right: True
+ytick.direction: in
+ytick.minor.visible: False
+ytick.major.size:6
+ytick.major.pad: 3
+ytick.minor.size:3
+
+
+#markers and lines
+lines.linewidth : 0.8
+lines.markersize : 1
+lines.dashed_pattern: 5,10
+scatter.marker : o
+scatter.edgecolors: black
+
+
